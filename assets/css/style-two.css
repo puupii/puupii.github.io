@@ -173,7 +173,7 @@ section.about-section {
   background-color: var(--dark-secondary);
   color: #fff;
   display: flex;
-  align-items: center;
+  align-items: top;
   justify-content: center;
   padding: 60px;
 }
@@ -188,6 +188,15 @@ section.about-section {
   object-fit: cover;
 }
 
+.about-img-big img {
+  width: 450px;
+  height: 350px;
+  padding: 2px;
+  border-radius: 10%;
+  border: 3px solid var(--primary);
+  box-shadow: 3px 5px 30px #613026;
+  object-fit: cover;
+}
 .about-content {
   margin-left: 100px;
   max-width: 600px;
