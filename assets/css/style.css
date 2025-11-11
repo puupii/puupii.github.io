@@ -90,6 +90,7 @@ section.hero-section {
 }
 
 .hero-section__desc {
+  max-width: 600px;
   color: var(--text-color);
 }
 
@@ -181,6 +182,8 @@ section.about-section {
 }
 
 .about-img img {
+  margin-left: 50px;
+  margin-right: 50px;
   width: 250px;
   height: 250px;
   padding: 2px;
@@ -191,6 +194,8 @@ section.about-section {
 }
 
 .about-img-big img {
+  margin-left: 50px;
+  margin-right: 50px;
   width: 450px;
   height: 350px;
   padding: 2px;
@@ -200,7 +205,8 @@ section.about-section {
   object-fit: cover;
 }
 .about-content {
-  margin-left: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
   max-width: 600px;
 }
 
